@@ -5,11 +5,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (function () {
-	var Hotp, Totp, global;
-
-	if (global === void 0 && window !== void 0) {
-		global = window;
-	}
+	var Hotp, Totp;
 
 	Totp = function () {
 		// pass in the secret, code dom element, ticker dom element
